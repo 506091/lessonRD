@@ -1,14 +1,16 @@
 package com.ua.robot.lesson3;
 
+
+
 public class Main {
 
     public static void main(String[] args) {
         int year = 2023;
-        double percent = 7.8;
-        short s = 5;
-        byte b = 127;
-        b++;
-        System.out.println(b);
+        int afterTenYear = 10;
+
+        int future = year + afterTenYear;
+
+        System.out.println("після 10 років наступить " + future);
     }
 
 }
