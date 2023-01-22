@@ -8,7 +8,7 @@ public class HomeWorkStringVH4 {
 
         Scanner EnterString = new Scanner(System.in);
         System.out.println("Введіть текст для обробки: ");
-        String MyHomeWorkString = EnterString.next();
+        String MyHomeWorkString = EnterString.nextLine();
         System.out.println("Ваш текст: "+MyHomeWorkString);
 
         System.out.println("UpperCase: "+MyHomeWorkString.toUpperCase());
