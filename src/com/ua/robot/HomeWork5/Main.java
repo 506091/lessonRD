@@ -18,7 +18,7 @@ public class Main {
         System.out.println("Число для перевірки парності: ");
         int ParityCheck = ParityCheckNumber.nextInt();
 
-        System.out.println("Ви ввели для порівняння наступні числа А і В: "+integerA+" 32"+integerB+";");
+        System.out.println("Ви ввели для порівняння наступні числа А і В: "+integerA+" "+integerB+";");
         System.out.println("Ваше число для перевірки парності: "+ParityCheck+";");
         System.out.println("----------------------------------------------------------------------------------");
         if (integerA > integerB) {
