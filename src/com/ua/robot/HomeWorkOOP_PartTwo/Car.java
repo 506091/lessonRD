@@ -5,10 +5,12 @@ public class Car {
 
 
     public String getCarManufacturer() {
+
         return carManufacturer;
     }
 
     public void setCarManufacturer(String carManufacturer) {
+
         this.carManufacturer = carManufacturer;
     }
 
