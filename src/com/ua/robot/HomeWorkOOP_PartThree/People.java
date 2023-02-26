@@ -6,16 +6,21 @@ public class People {
     private static int counter;
     private String scientificName;
 
+    static int countInitialization = 0;
+    static int countInitializationStatic = 0;
+
     static {
         counter = 0;
-        System.out.println("Static initialization counter = 0");
-        System.out.println("before normal initialization");
+        countInitializationStatic++;
+        System.out.println("People id counter = 0");
+        System.out.println("before normal initialization"+ "countInitializationStatic = "+ countInitializationStatic);
 
     }
 
     {
+        countInitialization++;
         scientificName = "Homo sapiens";
-        System.out.println("initialization scientificName " + "after `static initialization");
+        System.out.println("initialization scientificName " + "after `static initialization` " + "countInitialization= " + countInitialization );
     }
 
     private String name;
